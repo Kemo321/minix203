@@ -33,6 +33,7 @@ int main(char argc, char ** argv){
 		}
 
 		else if (pid > 0){
+			sleep(5);
 			return 0;
 		}
 
@@ -43,7 +44,7 @@ int main(char argc, char ** argv){
 	}
 		
 		
-
+	sleep(1);
 	m.m1_i1 = atoi(argv[1]);
 	ret = _syscall( MM, TEST, & m );
 	longest_path = ret & 1023;
