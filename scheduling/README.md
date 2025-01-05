@@ -9,6 +9,7 @@ Processes from:
 test file - [test](minix_usr/src/soi/test.c)
 
 column `-user` displays quants of time granted
+column `g` displays group of the process
 ![1](ss/ss.png)
 In this case there are 2 processes from group A(0) 1 from B(1) and 1 from C(1)
 In a cycle two processes from group A get 1 quant combined, from group B 2 quants and from group C 3 quants.
